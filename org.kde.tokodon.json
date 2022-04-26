@@ -64,18 +64,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.02/tokodon-22.02.tar.xz",
-                    "sha256": "f70ab36891b4221958c6942f541ba488ad9c6ed6390616135da4394a6edd1212",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.04/tokodon-22.04.tar.xz",
+                    "sha256": "82dbcd7f76eb186ec72f0daa36d2a2627bd7b5b1ace4f246ed870008ba123831",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242851,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/plasma-mobile/$version/tokodon-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-appstream-Add-screenshots.patch"
                 }
             ]
         }
