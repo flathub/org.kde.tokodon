@@ -85,8 +85,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.11/tokodon-22.11.tar.xz",
-                    "sha256": "a9c4c953575d7f41686b7fa37bc8401e7afa064e5807947107efcd1560c4d929",
+                    "url": "https://download.kde.org/unstable/tokodon/tokodon-21.11.1.tar.xz",
+                    "sha256": "b1d315736ea9f33ae2303ee25cb66710bb19d8d5b569f7ec633562c180e2c54a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242851,
