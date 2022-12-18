@@ -85,14 +85,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/unstable/tokodon/tokodon-21.11.1.tar.xz",
-                    "sha256": "b1d315736ea9f33ae2303ee25cb66710bb19d8d5b569f7ec633562c180e2c54a",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 242851,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/tokodon-$version.tar.xz"
-                    }
+                    "url": "https://download.kde.org/stable/tokodon/tokodon-22.11.2.tar.xz",
+                    "sha256": "c74182e033395e3982f5b41304f896aac9644d03193f87829cd1844752f5aedc"
                 },
                 {
                     "type": "patch",
