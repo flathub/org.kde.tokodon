@@ -85,8 +85,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/tokodon/tokodon-23.01.0.tar.xz",
-                    "sha256": "ca7281fde94bdcca2c8063165abe39116dd423028fa27071cf85202d2a7d65c3"
+                    "url": "https://download.kde.org/stable/tokodon/tokodon-23.02.0.tar.xz",
+                    "sha256": "33622ee42e81bcc716fe820d7da35cce40f1d621bdb4a9d2fa1c35b4e92f15a7"
                 }
             ]
         }
