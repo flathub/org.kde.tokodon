@@ -91,7 +91,7 @@
                         "type": "anitya",
                         "project-id": 242851,
                         "stable-only": true,
-                        "url-template": "ttps://download.kde.org/stable/release-service/$version/src/tokodon-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/tokodon-$version.tar.xz"
                     }
                 }
             ]
