@@ -69,7 +69,7 @@
                         "type": "anitya",
                         "project-id": 4138,
                         "stable-only": true,
-                        "url-template": "https://github.com/frankosterfeld/qtkeychain/archive/v$version.tar.gz"
+                        "url-template": "https://github.com/frankosterfeld/qtkeychain/archive/refs/tags/$version.tar.gz"
                     }
                 }
             ],
