@@ -266,9 +266,9 @@
                     "sha256": "7e86cfce2f51592baa2bd9cc4c99f4fd2586e4292c2dae657a477548f2683708",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 242851,
+                        "project-id": 368663,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/tokodon-$version.tar.xz"
+                        "url-template": "https://download.kde.org/unstable/release-service/$version/src/tokodon-$version.tar.xz"
                     }
                 }
             ]
