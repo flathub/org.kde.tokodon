@@ -262,8 +262,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/tokodon-23.04.3.tar.xz",
-                    "sha256": "7e86cfce2f51592baa2bd9cc4c99f4fd2586e4292c2dae657a477548f2683708",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/tokodon-23.08.0.tar.xz",
+                    "sha256": "50c8c6c34d7fdb41312fe132cdeb2a507e55274a879e432f68b1de92b6e98bb7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242851,
