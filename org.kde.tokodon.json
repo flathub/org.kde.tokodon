@@ -273,5 +273,10 @@
                 }
             ]
         }
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/pkgconfig"
     ]
 }
