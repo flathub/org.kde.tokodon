@@ -22,6 +22,9 @@
             "add-ld-path": "."
         }
     },
+    "cleanup-commands": [
+        "mkdir -p /app/lib/ffmpeg"
+    ],
     "modules": [
         {
             "name": "libmpv",
