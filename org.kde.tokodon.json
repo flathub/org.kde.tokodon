@@ -200,7 +200,8 @@
                 "-Dgtk_doc=false",
                 "-Dintrospection=false",
                 "-Dmanpage=false",
-                "-Dvapi=false"
+                "-Dvapi=false",
+                "-Dcrypto=disabled"
             ]
         },
         {
