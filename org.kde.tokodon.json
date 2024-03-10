@@ -1,7 +1,7 @@
 {
     "id": "org.kde.tokodon",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "tokodon",
     "finish-args": [
@@ -13,7 +13,9 @@
         "--share=network",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.kde.kwalletd5",
-        "--talk-name=org.freedesktop.secrets"
+        "--talk-name=org.kde.kwalletd6",
+        "--talk-name=org.freedesktop.secrets",
+        "--env=QML_IMPORT_PATH=/app/qml"
     ],
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
@@ -170,8 +172,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.11.0.tar.xz",
-                    "sha256": "05296c5afbe6804308bf9c0d2751f3b748b40d00fa784946d1dcdf3af4bffbad",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.0.1.tar.xz",
+                    "sha256": "9d013847efb0048c6a2799ee0ed281b14eee15314ac20d7fba853197e45f29b7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -210,20 +212,43 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/frankosterfeld/qtkeychain/archive/refs/tags/0.14.2.tar.gz",
+                    "url": "https://github.com/frankosterfeld/qtkeychain/archive/0.14.2.tar.gz",
                     "sha256": "cf2e972b783ba66334a79a30f6b3a1ea794a1dc574d6c3bebae5ffd2f0399571",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4138,
                         "stable-only": true,
-                        "url-template": "https://github.com/frankosterfeld/qtkeychain/archive/refs/tags/$version.tar.gz"
+                        "url-template": "https://github.com/frankosterfeld/qtkeychain/archive/$version.tar.gz"
                     }
                 }
             ],
             "config-opts": [
                 "-DCMAKE_INSTALL_LIBDIR=/app/lib",
                 "-DLIB_INSTALL_DIR=/app/lib",
-                "-DBUILD_TRANSLATIONS=NO"
+                "-DBUILD_TRANSLATIONS=NO",
+                "-DBUILD_WITH_QT6=ON"
+            ]
+        },
+        {
+            "name": "MpvQt",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://invent.kde.org/libraries/mpvqt.git",
+                    "tag": "v1.0.0"
+                }
+            ]
+        },
+        {
+            "name": "QtWebView",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.qt.io/official_releases/qt/6.6/6.6.1/submodules/qtwebview-everywhere-src-6.6.1.tar.xz",
+                    "sha256": "d6de1ba33be93ae464147c9c069e115c7a24e3e475640016bc2f07c93c4a256c"
+                }
             ]
         },
         {
@@ -232,8 +257,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/tokodon-23.08.4.tar.xz",
-                    "sha256": "1cd3b4d9e03e2412a4713e8970c48f882791cf354ad3c342aca5629d6de54dc3",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/tokodon-24.02.0.tar.xz",
+                    "sha256": "0d748e43fa81b1edfdb41bc23f309e4d0e9fd6f2533c663ecfb0d8c3900ecfdf",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242851,
@@ -241,6 +266,9 @@
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/tokodon-$version.tar.xz"
                     }
                 }
+            ],
+            "config-opts": [
+                "-DTOKODON_FLATPAK=ON"
             ]
         }
     ],
