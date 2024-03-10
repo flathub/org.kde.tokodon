@@ -3,6 +3,8 @@
     "runtime": "org.kde.Platform",
     "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
+    "base": "io.qt.qtwebengine.BaseApp",
+    "base-version": "6.6",
     "command": "tokodon",
     "finish-args": [
         "--share=ipc",
@@ -237,17 +239,6 @@
                     "type": "git",
                     "url": "https://invent.kde.org/libraries/mpvqt.git",
                     "tag": "v1.0.0"
-                }
-            ]
-        },
-        {
-            "name": "QtWebView",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.qt.io/official_releases/qt/6.6/6.6.1/submodules/qtwebview-everywhere-src-6.6.1.tar.xz",
-                    "sha256": "d6de1ba33be93ae464147c9c069e115c7a24e3e475640016bc2f07c93c4a256c"
                 }
             ]
         },
