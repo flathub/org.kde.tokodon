@@ -7,17 +7,17 @@
     "base-version": "6.6",
     "command": "tokodon",
     "finish-args": [
-        "--share=ipc",
-        "--socket=fallback-x11",
-        "--socket=wayland",
-        "--socket=pulseaudio",
         "--device=dri",
+        "--env=QML_IMPORT_PATH=/app/qml",
+        "--share=ipc",
         "--share=network",
+        "--socket=fallback-x11",
+        "--socket=pulseaudio",
+        "--socket=wayland",
         "--talk-name=org.freedesktop.Notifications",
-        "--talk-name=org.kde.kwalletd5",
-        "--talk-name=org.kde.kwalletd6",
         "--talk-name=org.freedesktop.secrets",
-        "--env=QML_IMPORT_PATH=/app/qml"
+        "--talk-name=org.kde.kwalletd5",
+        "--talk-name=org.kde.kwalletd6"
     ],
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
