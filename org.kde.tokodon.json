@@ -175,8 +175,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.4.0.tar.xz",
-                    "sha256": "56e3ceb52055b5603320ea08b27d3673d32a391a8d58646d998227d8b51f0a93",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.5.0.tar.xz",
+                    "sha256": "f9dfd191022b633ea3348f84730d7158a159dfe49668dba0a9e9bd678ac44e54",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -255,8 +255,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/tokodon-24.08.1.tar.xz",
-                    "sha256": "62db86fb40a8c36f88421a09b0ddffecd8266a9c25204b9183715ddbcd74333b",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/tokodon-24.08.2.tar.xz",
+                    "sha256": "b841e2f6073562c1a884b2407d3d85a62ca8418bdcbcb93a169b7f3da6f1d922",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242851,
