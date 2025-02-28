@@ -297,6 +297,9 @@
         {
             "name": "kunifiedpush",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "builddir": true,
             "sources": [
                 {
@@ -315,6 +318,10 @@
         {
             "name": "tokodon",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DTOKODON_FLATPAK=ON"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -327,9 +334,6 @@
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/tokodon-$version.tar.xz"
                     }
                 }
-            ],
-            "config-opts": [
-                "-DTOKODON_FLATPAK=ON"
             ]
         }
     ],
