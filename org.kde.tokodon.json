@@ -149,8 +149,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://github.com/libass/libass/releases/download/0.17.3/libass-0.17.3.tar.gz",
-                            "sha256": "da7c348deb6fa6c24507afab2dee7545ba5dd5bbf90a137bfe9e738f7df68537",
+                            "url": "https://github.com/libass/libass/releases/download/0.17.4/libass-0.17.4.tar.gz",
+                            "sha256": "a886b3b80867f437bc55cff3280a652bfa0d37b43d2aff39ddf3c4f288b8c5a8",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 1560,
