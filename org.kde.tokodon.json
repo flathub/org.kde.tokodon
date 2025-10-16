@@ -103,8 +103,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://linuxtv.org/downloads/v4l-utils/v4l-utils-1.30.1.tar.xz",
-                            "sha256": "c1cf549c2ec3cf39eb5ec7bf15731349e61b26a21b5e963922db422333bae197",
+                            "url": "https://linuxtv.org/downloads/v4l-utils/v4l-utils-1.32.0.tar.xz",
+                            "sha256": "6828828a17775526eb93fb258a9294d1d1073d633c344dd71ecd4e7a1ffb7dfc",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 9998,
@@ -222,8 +222,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.9.0.tar.xz",
-                    "sha256": "21314a91f26b1c962def3fd7ff2e762d3358b075f63f4d7e0144fb2c63b7ebc7",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.10.0.tar.xz",
+                    "sha256": "c98f92bf7c452e12f6dc403404215413db3959fe904ad830ead0db6bb09b3d11",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -283,8 +283,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.1/src/kunifiedpush-25.08.1.tar.xz",
-                    "sha256": "3fbe01873643957544cb4115b90d9badfeae70277476587f367bdbeec59aa3d7",
+                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/kunifiedpush-25.08.2.tar.xz",
+                    "sha256": "2a5c6a1a307474ca9502b79a65fd1cf4662182e0831a47d038b0640c20578832",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242851,
@@ -304,8 +304,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.1/src/tokodon-25.08.1.tar.xz",
-                    "sha256": "1a9f9f1bd2e0abd9d2fb69790f336a5d7d99713ac2d059b5bef19d97b642a740",
+                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/tokodon-25.08.2.tar.xz",
+                    "sha256": "f3261675c0c6ab421b4b01a4ff559eb14c3ee34c6cc71e6ea23efb11063ba234",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242851,
