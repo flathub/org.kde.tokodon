@@ -198,6 +198,10 @@
                                 "stable-only": true,
                                 "tag-template": "v$version"
                             }
+                        },
+                        {
+                            "type": "patch",
+                            "path": "vulkan-python-xml.patch"
                         }
                     ]
                 }
