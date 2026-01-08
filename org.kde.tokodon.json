@@ -257,8 +257,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/kunifiedpush-25.12.0.tar.xz",
-                    "sha256": "37591d1dd1291678e0d34470ecfa7f6cf188a3723ab0db117042d11d43b60ffe",
+                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/kunifiedpush-25.12.1.tar.xz",
+                    "sha256": "68de794e3c120746a3697544f79039a8352302f7944513c991b8e32063656087",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242851,
@@ -278,8 +278,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/tokodon-25.12.0.tar.xz",
-                    "sha256": "7223cd3957e84755f0fb73871510c083454bc049522fbacc8850d61bbd755c6f",
+                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/tokodon-25.12.1.tar.xz",
+                    "sha256": "b02c9ad03cbaf9c2a84b81d68fb0651a659d269c259e527b72d80b01aa95c137",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242851,
