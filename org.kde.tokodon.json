@@ -21,6 +21,17 @@
         "--talk-name=org.kde.kwalletd5",
         "--talk-name=org.kde.kwalletd6"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/pkgconfig",
+        "/mkspecs",
+        "/share/doc",
+        "/share/qlogging-categories6"
+    ],
+    "cleanup-commands": [
+        "/app/cleanup-BaseApp.sh"
+    ],
     "modules": [
         {
             "name": "libmpv",
@@ -289,10 +300,5 @@
                 }
             ]
         }
-    ],
-    "cleanup": [
-        "/include",
-        "/lib/cmake",
-        "/lib/pkgconfig"
     ]
 }
