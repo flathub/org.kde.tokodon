@@ -24,7 +24,13 @@
     "cleanup": [
         "/include",
         "/lib/cmake",
-        "/lib/pkgconfig"
+        "/lib/pkgconfig",
+        "/mkspecs",
+        "/share/doc",
+        "/share/qlogging-categories6"
+    ],
+    "cleanup-commands": [
+        "/app/cleanup-BaseApp.sh"
     ],
     "modules": [
         {
