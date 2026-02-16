@@ -21,6 +21,11 @@
         "--talk-name=org.kde.kwalletd5",
         "--talk-name=org.kde.kwalletd6"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/pkgconfig"
+    ],
     "modules": [
         {
             "name": "qtkeychain",
@@ -104,10 +109,5 @@
                 }
             ]
         }
-    ],
-    "cleanup": [
-        "/include",
-        "/lib/cmake",
-        "/lib/pkgconfig"
     ]
 }
