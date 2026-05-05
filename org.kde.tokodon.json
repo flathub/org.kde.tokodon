@@ -26,8 +26,7 @@
         "/lib/cmake",
         "/lib/pkgconfig",
         "/mkspecs",
-        "/share/doc",
-        "/share/qlogging-categories6"
+        "/share/doc"
     ],
     "cleanup-commands": [
         "/app/cleanup-BaseApp.sh"
